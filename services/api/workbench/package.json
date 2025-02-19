@@ -48,7 +48,7 @@
     "dayjs": "^1.11.10",
     "envalid": "^8.0.0",
     "handlebar": "^1.0.0",
-    "humanloop": "^0.8.10",
+    "humanloop": "^0.8.15",
     "install": "^0.13.0",
     "json2csv": "^6.0.0-alpha.2",
     "libphonenumber-js": "^1.11.13",
