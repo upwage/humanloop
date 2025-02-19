@@ -1,0 +1,16 @@
+services:
+
+  workbench:
+    build:
+      context: ./services/api/workbench
+      dockerfile: Dockerfile
+      target: development
+    environment:
+      - NEW_RELIC_APP_NAME=WORKBENCH_DEV
+      - NEW_RELIC_LICENSE_KEY=test123
+      - NEW_RELIC_USER_KEY=test123
+    ports:
+      - '3004:3000'
+    volumes:
+      - ./services/api/workbench:/usr/src/app
+
