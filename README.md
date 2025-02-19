@@ -47,4 +47,5 @@ workbench-1  | [NestWinston] 166 2/19/2025, 12:15:53 AM     LOG [RouterExplorer]
 workbench-1  | [NestWinston] 166 2/19/2025, 12:15:53 AM     LOG [NestApplication] Nest application successfully started
 ```
 
+`Humanloop` is invoked in this file: https://github.com/upwage/humanloop/blob/main/services/api/workbench/src/workbench/workbench.service.ts
 
